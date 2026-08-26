@@ -24,7 +24,7 @@ export default function Navbar() {
           <div className="bg-(--accent-cyan) h-11 w-11 rounded-[0.75rem]"></div>
         </div>
       </div>
-      <hr className="border-(--text) opacity-50 w-9/10 mx-auto my-5"/>
+      <hr className="border-(--accent-cyan) opacity-50 w-9/10 mx-auto my-5"/>
     </div>
   )
 }

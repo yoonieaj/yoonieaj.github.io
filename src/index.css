@@ -3,8 +3,9 @@
 @import "tailwindcss";
 
 :root {
-  /* --bg: #242a50; */
+  --bg2: #242a50;
   --bg: #161b3d;
+  --bg3: #0f1226;
   --text: #e5edf0;
   --accent-salmon: #f59585;
   --accent-gold: #ffcf7e;
