@@ -11,7 +11,7 @@ function NavChip({ name, path, colour }: { name: string, path: string, colour: s
 export default function Navbar() {
   return (
     <div>
-      <div className="flex justify-between items-center mx-20 mt-10 px-2">
+      <div className="flex justify-between items-center mx-20 pt-10 px-2">
         <nav className="flex flex-row justify-between items-center gap-8">
           <NavChip name="home" path="/" colour="salmon" />
           <NavChip name="about me!" path="/about" colour="gold" />

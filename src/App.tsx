@@ -1,4 +1,4 @@
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import About from './About';
 import Experience from './Experience';
 import FunStuff from './FunStuff';
@@ -7,8 +7,8 @@ import Navbar from './Navbar';
 
 function App() {
 
-  const location = useLocation();
-  console.log("location", location);
+  // const location = useLocation(); // a surprise tool that will help us later
+  // console.log("location", location);
 
   return (
     <div className="space-background">
