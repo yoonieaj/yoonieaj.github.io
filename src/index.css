@@ -65,7 +65,7 @@ body {
 }
 
 .space-background {
-  background-image: url('src/assets/space_image_cropped.png');
+  background-image: url('./src/assets/space_image_cropped.png');
   height: fit-content;
   min-height: 100vh;
   background-position: right bottom;
