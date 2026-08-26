@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Palanquin+Dark:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  /* --bg: #242a50; */
+  --bg: #161b3d;
+  --text: #e5edf0;
+  --accent-salmon: #f59585;
+  --accent-gold: #ffcf7e;
+  --accent-cyan: #bde8e9;
+  --accent-purple: #cebae4;
+
+  --sans: "Nunito", sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+}
+
+h1 {
+  font-family: "Palanquin Dark", sans-serif;
+  font-size: 84px;
+  font-weight: 600;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.chip {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: max-content;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.chip.salmon {
+  background-color: rgb(from var(--accent-salmon) r g b / 0.4);
+  border: 1.2px solid var(--accent-salmon);
+}
+
+.chip.gold {
+  background-color: rgb(from var(--accent-gold) r g b / 0.4);
+  border: 1.2px solid var(--accent-gold);
+}
+
+.chip.cyan {
+  background-color: rgb(from var(--accent-cyan) r g b / 0.4);
+  border: 1.2px solid var(--accent-cyan);
+}
+
+.chip.purple {
+  background-color: rgb(from var(--accent-purple) r g b / 0.4);
+  border: 1.2px solid var(--accent-purple);
+}
+
+.space-background {
+  background-image: url('src/assets/space_image_cropped.png');
+  height: fit-content;
+  min-height: 100vh;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-attachment: fixed; 
+}
