@@ -9,13 +9,13 @@ function HomePage() {
         <br />
         <p>i’m currently finishing up with my undergrad degree in computer science and astrophysics at the 
           university of toronto. in the slow days before i start my last semester of school, i decided to 
-          make a personal website -- partly to brush up on my frontend skills, partly because i like making 
-          pretty things.</p>
+          make a personal website -- partly to get some practice coding without an agent, but mostly 
+          because i like making pretty things.</p>
         <br/>
-        <p>also, it’s fun to make a custom website just for yourself, even if it’s likely not many people 
+        <p>also, it’s fun to make a custom website just for yourself, even if (especially if!) it’s likely not many people 
           will see it.</p>
         <br/>
-        <p>this is an extreme work in progress, but feel free to poke around. i hope you enjoy your time here!</p>
+        <p>this is an extreme work in progress, but feel free to poke around!</p>
       </div>
     </div>
   )
