@@ -42,31 +42,6 @@ body {
   border-radius: 50px;
   width: max-content;
   font-size: 1.2rem;
-  color: #ffffff;
-}
-
-.chip.salmon {
-  color: var(--accent-salmon);
-  /* background-color: rgb(from var(--accent-salmon) r g b / 0.4);
-  border: 1.2px solid var(--accent-salmon); */
-}
-
-.chip.gold {
-  color: var(--accent-gold);
-  /* background-color: rgb(from var(--accent-gold) r g b / 0.4); */
-  /* border: 1.2px solid var(--accent-gold); */
-}
-
-.chip.cyan {
-  color: var(--accent-cyan);
-  /* background-color: rgb(from var(--accent-cyan) r g b / 0.4);
-  border: 1.2px solid var(--accent-cyan); */
-}
-
-.chip.purple {
-  color: var(--accent-purple);
-  /* background-color: rgb(from var(--accent-purple) r g b / 0.4);
-  border: 1.2px solid var(--accent-purple); */
 }
 
 .space-background {
