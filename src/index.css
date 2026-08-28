@@ -46,23 +46,27 @@ body {
 }
 
 .chip.salmon {
-  background-color: rgb(from var(--accent-salmon) r g b / 0.4);
-  border: 1.2px solid var(--accent-salmon);
+  color: var(--accent-salmon);
+  /* background-color: rgb(from var(--accent-salmon) r g b / 0.4);
+  border: 1.2px solid var(--accent-salmon); */
 }
 
 .chip.gold {
-  background-color: rgb(from var(--accent-gold) r g b / 0.4);
-  border: 1.2px solid var(--accent-gold);
+  color: var(--accent-gold);
+  /* background-color: rgb(from var(--accent-gold) r g b / 0.4); */
+  /* border: 1.2px solid var(--accent-gold); */
 }
 
 .chip.cyan {
-  background-color: rgb(from var(--accent-cyan) r g b / 0.4);
-  border: 1.2px solid var(--accent-cyan);
+  color: var(--accent-cyan);
+  /* background-color: rgb(from var(--accent-cyan) r g b / 0.4);
+  border: 1.2px solid var(--accent-cyan); */
 }
 
 .chip.purple {
-  background-color: rgb(from var(--accent-purple) r g b / 0.4);
-  border: 1.2px solid var(--accent-purple);
+  color: var(--accent-purple);
+  /* background-color: rgb(from var(--accent-purple) r g b / 0.4);
+  border: 1.2px solid var(--accent-purple); */
 }
 
 .space-background {
@@ -73,4 +77,14 @@ body {
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-attachment: fixed; 
+}
+
+.jelly-background {
+  background-image: url('./assets/jelly2.png');
+  height: fit-content;
+  min-height: 100vh;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-attachment: fixed;
 }
